@@ -1,0 +1,7 @@
+#include <stdio.h>
+#include <cs50.h>
+
+int main(){
+  string name = get_string("ismin nedir?\n");
+  printf("adın : %s\n",name); 
+}

@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <cs50.h>
+#include <math.h>
+
+id main(void){
+
+
+  float lira = get_float("Para Üstüne Giriniz : ");
+  int kurus = round(lira * 100);
+  int sayı = 0
+
+  while(kurus >= 25){
+    kurus = kurus-25;
+    sayi = sayi+1;
+  }
+  while(kurus >= 10){
+    kurus = kurus-10;
+    sayi = sayi+1;
+  }
+  while(kurus >= 5){
+    kurus = kurus-5;
+    sayi = sayi+1;
+  }
+  while(kurus >= 1){
+    kurus = kurus-1;
+    sayi = sayi+1;
+  }
+  printf("Gereken madeni para sayısı %i",sayi)
+
+}
+
+
